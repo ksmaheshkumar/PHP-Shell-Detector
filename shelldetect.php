@@ -84,7 +84,7 @@ class shellDetector {
   private $remotefingerprint = false;
 
   //settings: hide suspicious files
-  private $hidesuspicious = false;
+  private $hidesuspicious = true;
 
   //settings: type of file submission to review (0 - old one not secure but will work with allow_url_fopen = false, 1 - new one more secure but allow_url_fopen need to be true.)
   private $submitfile = 1;
